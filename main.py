@@ -17,10 +17,10 @@ while running:
     #Get inputs
     os.system('cls')
     print("Rollercoaster-check™")
-    age = input("Voer leeftijd in: ")
-    height = input("Voer lengte in: ")
-    age = int(age)
-    height = int(height)
+    age = int(input("Voer leeftijd in: "))
+    height = int(input("Voer lengte in: "))
+    age = (age)
+    height = (height)
 
     #Process checks
     if(age > age_check and height > height_check):
